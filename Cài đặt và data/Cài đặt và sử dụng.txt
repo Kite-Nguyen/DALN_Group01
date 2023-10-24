@@ -1,0 +1,24 @@
+Bước 1: giải nén file trong thư mục https của xampp
+Bước 2: khỏi động chương trình
+Bước 3: chạy lệnh composer install
+Bước 4: chạy lệnh php artisan migrate hoặc import database đi kèm
+Bước 5: Sử dụng
+
+Với có thể gặp lỗi ở các mục thanh toán do vnpay đc set up duy trì đc 1 tháng
+
+
+
+tài khoản admin:
+    admin@gmail.com
+    pass: 123123123
+tài khỏa user demo (có thể đăng ký cái mới):
+    demo1@gmail.com
+    demo2@gmail.com
+    demo3@gmail.com
+    demo4@gmail.com
+    pass: 123123123
+
+
+vnp: test info
+pennzero2002@gmail.com
+Kitenguyen2002@ 
