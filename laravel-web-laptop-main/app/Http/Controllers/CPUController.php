@@ -82,8 +82,10 @@ class CPUController extends Controller
      * @param  \App\Models\CPU  $cPU
      * @return \Illuminate\Http\Response
      */
+    
     public function destroy(CPU $cPU)
     {
         //
+
     }
 }
