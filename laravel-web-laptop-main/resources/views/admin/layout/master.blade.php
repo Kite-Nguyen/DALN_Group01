@@ -30,7 +30,7 @@
 <body class=""> 
 
 @include('admin.layout.top-navbar')
-@include('admin.layout.modal')
+@include('admin.layout.modal')  
 @include('admin.layout.sidebar')
 
 @yield('content')

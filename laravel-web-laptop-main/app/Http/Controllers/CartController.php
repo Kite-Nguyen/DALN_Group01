@@ -67,7 +67,7 @@ class CartController extends Controller
 
         $product_info = Product::query()->where('id', $product_id)->select('price', 'quantity')->firstOrFail();
 
-        // Kiểm tra xem còn đủ sl sản phẩm không
+        // Kiểm tra xem còn đủ số lượng sản phẩm không
         if ($quantity > $product_info->quantity) {
             echo 'Không đủ số lượng sản phẩm';
             return;

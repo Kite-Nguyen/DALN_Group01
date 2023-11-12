@@ -26,11 +26,6 @@ use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
 |
 */
 
@@ -46,10 +41,6 @@ Route::group([
     // Route Login
     Route::get('/login-register', [AuthController::class, 'login'])->name('login');
     Route::post('/login', [AuthController::class, 'processLogin'])->name('process_login');
-
-    //Login facebook
-    Route::get('/login-facebook', [AuthController::class, 'login_facebook']);
-    Route::get('/admin/callback', [AuthController::class, 'callback_facebook']);
 
     // Route Log out
     Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
