@@ -2,7 +2,7 @@ Bước 1: giải nén file trong thư mục https của xampp
 Bước 2: khỏi động chương trình
 Bước 3: chạy lệnh composer install
 Bước 4: chạy lệnh php artisan migrate hoặc import database đi kèm
-Bước 5: Sử dụng
+Bước 5: chạy lệnh php artisan serve và ấn vào link đc tạo
 
 Với có thể gặp lỗi ở các mục thanh toán do vnpay đc set up duy trì đc 1 tháng
 
